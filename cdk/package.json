@@ -1,0 +1,16 @@
+{
+  "name": "aafintech-cdk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "ver": "cdk --version",
+    "info": "IMPORTANT NOTE: Please make sure to replace the values inside the cdk.json with your configuration",
+    "bootstrap": "cdk bootstrap --app \"./gradlew runBootstrap\""
+  },
+  "devDependencies": {
+    "aws-cdk": "2.1029.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
